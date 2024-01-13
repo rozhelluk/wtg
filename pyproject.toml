@@ -12,6 +12,7 @@ Django = "4.2.9"
 
 [tool.poetry.group.dev.dependencies]
 django-stubs = "^4.2.7"
+pre-commit = "^3.6.0"
 
 [build-system]
 requires = ["poetry-core"]
