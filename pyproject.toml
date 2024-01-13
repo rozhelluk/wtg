@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "wtg"
+version = "0.1.0"
+description = "wtg"
+authors = ["Rozheliuk Vitalii <rozhelluk.py@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "4.2.9"
+
+[tool.poetry.group.dev.dependencies]
+django-stubs = "^4.2.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
