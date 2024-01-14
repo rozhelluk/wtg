@@ -21,6 +21,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.mypy]
 plugins = ["mypy_django_plugin.main"]
+mypy_path = "./src"
 
 [tool.django-stubs]
 django_settings_module = "src.config.settings"
